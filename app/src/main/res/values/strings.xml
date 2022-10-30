@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Study Android In Lecture</string>
+
+    <string-array name="LAN">
+        <item>"Android"</item>
+        <item>"Java"</item>
+        <item>"C/C++"</item>
+    </string-array>
 </resources>
