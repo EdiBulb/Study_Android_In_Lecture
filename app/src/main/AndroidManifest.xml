@@ -3,7 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="org.techtown.studyandroidinlecture">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
     <application
+        android:requestLegacyExternalStorage="true"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -14,7 +17,7 @@
         android:theme="@style/Theme.StudyAndroidInLecture"
         tools:targetApi="31">
         <activity
-            android:name=".AlertDialogActivity"
+            android:name=".Project8_2"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,13 +26,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity6"
+            android:name=".Project8_1"
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".MainActivity5"
+            android:name=".AlertDialogActivity"
             android:exported="true"></activity>
+        <activity
+            android:name=".MainActivity6"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="true" />
         <activity
             android:name=".SecondActivity4"
             android:exported="false" />
